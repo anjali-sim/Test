@@ -142,19 +142,19 @@ body{
 }
 .left{
     height: 110%;
-    width: 81%;
+    width: 79%;
     background-color: white;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
 }
 .right{
-    width: 17%;
+    width: 19%;
     height: 110%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
 .right img{
-    width: 100%;
+    width: 86%;
     height: 100%;
     background-color: white;
 }
@@ -177,6 +177,7 @@ body{
 .left-heading p{
     font-size: 17px;
     color: #A5A5A5;
+   
 }
 .left-heading-1{
     padding-top: 13px;
