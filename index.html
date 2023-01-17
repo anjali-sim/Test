@@ -1,12 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flipkart Online Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon"
+        href="data:image/jpeg;base64,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">
+    <!-- <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon"> -->
 </head>
+
 <body>
-    
+    <!-- Making the First Navigation Bar -->
+    <nav>
+        <!-- For Flipkart Logo -->
+        <div class="logo">
+            <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                height="20px" width="75px">
+            <p class="logo-colour">Explore <span class="plus-colour">Plus</span><img
+                    src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png"
+                    height="10px" width="10px"></p>
+        </div>
+
+        <!-- For Search Bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products, brands and more">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <!-- For Login Button -->
+        <button class="login">Login</button>
+
+        <!-- For More and Cart -->
+        <a href="#" class="link">More&#x2304;</a>
+        <a href="#" class="a-link"><img src="images/cart-image.png" height="18px" width="20px" class="img"></a>
+        <a href="#" class="b-link">Cart</a>
+    </nav>
+
+    <!-- For the Product Navigation Bar -->
+    <section class="category">
+        <div class="product-nav">
+            <div class="product">
+                <img src="/images/product-1.webp" alt="Top Offers">
+                <p>Top Offers</p>
+            </div>
+            <div class="product">
+                <img src="/images/product-2.webp" alt="Grocery">
+                <p>Grocery</p>
+            </div>
+            <div class="product">
+                <img src="/images/product-3.webp" alt="Mobiles">
+                <p>Mobiles</p>
+            </div>
+            <div class="product">
+                <img src="/images/product-4.png" alt="Fashion">
+                <p>Fashion&#x2304</p>
+            </div>
+            <div class="product">
+                <img src="/images/product-5.webp" alt="Electronics">
+                <p>Electronics&#x2304</p>
+            </div>
+            <div class="product">
+                <img src="/images/product-6.webp" alt="Home">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Home&#x2304</p>
+            </div>
+            <div class="product">
+                <img src="/images/product-7.webp" alt="Appliances">
+                <p>Appliances&#x2304</p>
+            </div>
+            <div class="product">
+                <img src="/images/product-8.webp" alt="Travel">
+                <p>&nbsp;&nbsp;Travel</p>
+            </div>
+            <div class="product">
+                <img src="/images/product-9.webp" alt="Beauty, Toys & More">
+                <p>Beauty, Toys & More&#x2304</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+
+
+    <div class="category-1">
+        <div class="left">
+            <div class="left-heading">
+                <div class="left-heading-1">
+                    <h2>Deals of the Day</h2>&emsp;<img src="images/clock.png" alt="Clock">&emsp;<p>22 : 07 : 36 Left</p>
+                </div>
+                <button class="btn" type="submit">VIEW ALL</button>
+            </div>
+            <div class="main">
+                <div class="left-btn scrollbtn">
+                    <button id="left" onclick="scroll_right()"> <i class="fa-solid fa-chevron-left"></i> </button>
+                </div>
+                <div class="left-card">
+                    <div class="product-card">
+                        <img src="images/list-1.png" alt="Watches">
+                        <h4>Casio, Fastrack, Sonata...</h4>
+                            <h5>Upto 80%+Extra 10% Off</h5>
+                        <p>Knockout Deals!</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/list-2.png" alt="Home Temples">
+                        <h4>Home Temples & more</h4>
+                            <h5>Extra 10% Off</h5>
+                        <p>Space Saving furniture</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/list-3.png" alt="Tablet Cases">
+                        <h4>Premium Tablet Cases</h4>
+                            <h5>Extra 10% Off</h5>
+                        <p>For All Top Models</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/list-4.png" alt="Home Decor">
+                        <h4>Best of Home Decor</h4>
+                            <h5>From &#x20B9;79</h5>
+                        <p>Lowest Price Ever</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/list-5.png" alt="Home Decor">
+                        <h4>Metronaut, Provogue &...</h4>
+                            <h5>From&#x20B9;249+Extra10%Off</h5>
+                        <p>Jackets, Dresses & More</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/list-6.png" alt="LAVA A1500 Mobile">
+                        <h4>LAVA A1500</h4>
+                            <h5>Flat &#x20B9;830 off</h5>
+                        <p>Now &#x20B9;999</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/list-7.png" alt="LAVA A1500 Mobile">
+                        <h4>LAVA A1500</h4>
+                            <h5>Flat &#x20B9;830 off</h5>
+                        <p>Now &#x20B9;999</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/list-1.png" alt="Watches">
+                        <h4>Casio, Fastrack, Sonata...</h4>
+                            <h5>Upto 80%+Extra 10% Off</h5>
+                        <p>Knockout Deals!</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/list-2.png" alt="Home Temples">
+                        <h4>Home Temples & more</h4>
+                            <h5>Extra 10% Off</h5>
+                        <p>Space Saving furniture</p>
+                    </div>
+
+                </div>
+                <div class="right-btn scrollbtn">
+                    <button id="right" onclick="scroll_left()"> <i class="fa-solid fa-chevron-right"></i> </button>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div class="right">
+            <img src="images/advertise.png">
+        </div>
+    </div>
+
+
+    <div class="category-2">
+        <div class="left-1">
+            <div class="left-heading">
+                <div class="left-heading-1">
+                    <h2>Books And music Instruments</h2>
+                    <p >Shop Now!</p>
+                </div>
+                <button class="btn">VIEW ALL</button>
+            </div>
+
+
+            <div class="left-card">
+                <div class="product-card">
+                    <img src="images/harmonium.png" alt="Harmoniums">
+                    <h4>Harmoniums</h4>
+                        <h5>Up to 60%</h5>
+                    <p>Shop Now!</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/flute.png" alt="Flutes">
+                    <h4>Flutes</h4>
+                        <h5>Up to 80% Off</h5>
+                        <p>Shop Now!</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/guitar-1.png" alt="Acoustic Guitars">
+                    <h4>Acoustic Guitars</h4>
+                        <h5>Starting &#x20B9;1799</h5>
+                    <p>Juarez, Revel..</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/musical-accessories.png" alt="Musical Accessories">
+                    <h4>Musical Accessories</h4>
+                        <h5>Up to 80% Off</h5>
+                    <p>Shop Now!</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/microphone-accessories.png" alt="Microphone Accessories">
+                    <h4>Microphone Accessories</h4>
+                        <h5>Up to 80% Off</h5>
+                    <p>Shop Now!</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/guitar-2.png" alt="Acoustic Guitars">
+                    <h4>Acoustic Guitars</h4>
+                        <h5>Starting &#x20B9;1999</h5>
+                    <p>By Revel</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
 </body>
+<script src="script.js"></script>
+
 </html>
