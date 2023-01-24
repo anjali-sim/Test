@@ -16,49 +16,46 @@
 </head>
 <body>
     <header>
-        <div class="header1">
-            <div class="logooo">
-              
-                <div class="logo">
-                    <img src="images/logo.png"
-                        height="20px" width="75px">
-                    <p class="logo-colour">Explore <span class="plus-colour">Plus</span><img
-                            src="images/logo-plus.png"
-                            height="10px" width="10px"></p>
-                </div>
-                <div class="search-bar">
-                    <input type="text" placeholder="Search for products, brands and more">
-                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-                </div>
-
-            </div>
-
-
-            <div class="loginnn">
-
-                <button class="login">Login</button>
-                <div class="more" id="more">
-                          
-                    <div class="dropdown">
-                        <button class="dropbtn"> <span>More</span>
-                            <small><i class="fa-solid fa-angle-down"></i></small>
+            <div class="header_main_div">
+                <div class="header_first_half">
+                    <div class="flipkart-logo">
+                        <img style="display:block" src="./images/logo.png" width="75px" height="20px" alt="Logo">
+                        <a href="#">Explore <span style="color: yellow;">Plus </span></a><img src="./images/logo-plus.png" width="10px">
+                    </div>
+                    <div class="searchbar">
+                        <input type="text" placeholder="Search for products, brands and more">
+                        <button class="search_button">
+                            <img src="./images/search (1).png" alt="Search-icon" width="20" height="20">
                         </button>
-                        <div class="dropdown-content">
-                            <a href="#">Sign Up</a>
-                            <a href="#">Settings</a>
-                            <a href="#">24x7 Customer Care</a>
-                            <a href="#">Download App</a>
-                        </div>
-                    </div> 
+                    </div>
                 </div>
-                <a href="#" class="a-link"><img src="images/cart-image.png" height="18px" width="20px" class="img"></a>
-                <a href="#" class="b-link">Cart</a>
-
-                
+                <div class="header_second_half">
+                    <div class="header_second_half_items">
+                        <div class="login_button">
+                            <button class="login">Login</button>
+                        </div>
+                        <div class="menu">
+                            <div class="dropdown">
+                                <button class="dropbtn"> <span>More</span>
+                                    <small><i class="fa-solid fa-angle-down"></i></small>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Sign Up</a>
+                                    <a href="#">Settings</a>
+                                    <a href="#">24x7 Customer Care</a>
+                                    <a href="#">Download App</a>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="cart">
+                            <a href="#"> <img src="./images/cart-image.png" width="15px" height="15px" alt=""><span>
+                                    Cart</span></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-        </div>
-    </header>
+        </header>
+
 
     <div class="category">
         <div class="product-nav">
@@ -285,8 +282,6 @@
                 </div>
         
             </div>
-
-
 </body>
 <script src="script.js"></script>
 </html>
