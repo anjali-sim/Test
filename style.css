@@ -1,54 +1,59 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #F1F3F6;
 }
 
 /* For Header */
-header{
+header {
     background-color: rgb(40, 116, 240);
-    max-width: 100%;  
-}
-.header_main_div{
-    padding: 10px 0px;
-    display: flex;           
-    flex-direction: row;  
-    align-items: center; 
     max-width: 100%;
 }
-.header_first_half{
+
+.header_main_div {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+}
+
+.header_first_half {
     min-width: 55%;
     display: flex;
-    flex-direction: row;  
-    align-items: center; 
+    flex-direction: row;
+    align-items: center;
     justify-content: end;
 }
 
 /* For Logo */
-.flipkart-logo{
+.flipkart-logo {
     position: relative;
     padding: 0px;
     margin: 0px;
     margin-right: 15px;
 }
-.flipkart-logo a{
+
+.flipkart-logo a {
     text-decoration: none;
     margin-top: -1;
     color: #fff;
-   font-size: 15px;
-   font-style: italic;
+    font-size: 15px;
+    font-style: italic;
 }
-.flipkart-logo a:hover{
+
+.flipkart-logo a:hover {
     text-decoration: underline;
 }
 
 /* For Search Bar */
-.searchbar{
-    display: flex;           
+.searchbar {
+    display: flex;
     flex-direction: row;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     min-width: 60%;
 }
+
 .searchbar input[type=text] {
     background-color: #fff;
     padding: 0 16px;
@@ -59,7 +64,8 @@ header{
     height: 36px;
     width: 100%;
 }
-.search_button{
+
+.search_button {
     padding: 0 16px;
     background-color: #fff;
     border-radius: 0px 2px 2px 0px;
@@ -71,7 +77,7 @@ header{
 }
 
 /* For Login */
-.login_button button{
+.login_button button {
     color: #2874f0;
     font-size: 15px;
     font-weight: bold;
@@ -82,48 +88,56 @@ header{
     padding: 5px 40px;
     border: 1px solid #dbdbdb;
 }
-.header_second_half{
+
+.header_second_half {
     min-width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header_second_half_items{
+.header_second_half_items {
     min-width: 50%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.menu:hover{
+
+.menu:hover {
     cursor: pointer;
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
 }
-#menu-arrow{
+
+#menu-arrow {
     font-size: 15px;
     color: #fff;
 }
-.cart a{
+
+.cart a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
     cursor: pointer;
 }
+
 /* For Dropdown */
 .dropdown {
     overflow: hidden;
 }
+
 .dropdown .dropbtn {
-    font-size: 16px;  
+    font-size: 16px;
     border: none;
     color: white;
     padding: 29px 16px;
@@ -132,41 +146,48 @@ header{
     margin-top: -5px;
     font-weight: bold;
     padding-bottom: 16px;
-    font-family: Roboto,Arial,sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     margin-right: 20px;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #ffff;
     min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-    font-family: Roboto,Arial,sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
+
 .dropdown-content a:hover {
     background-color: rgb(241, 241, 241);
 }
-.dropbtn span{
+
+.dropbtn span {
     margin-top: 150px;
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
     z-index: 2;
 }
+
 .product {
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
-    font-family: Roboto,Arial,sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
-.product-nav{
+
+.product-nav {
     display: flex;
     justify-content: center;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
@@ -176,9 +197,9 @@ header{
     overflow-x: scroll;
     flex-wrap: nowrap;
 }
-.product-nav::-webkit-scrollbar
-{
-}
+
+.product-nav::-webkit-scrollbar {}
+
 .product img {
     width: 60px;
     height: 60px;
@@ -186,50 +207,60 @@ header{
     margin-left: 35px;
     margin-right: 35px;
 }
+
 .product a {
     text-decoration: none;
-    color:#505050;
-    font-family: Roboto,Arial,sans-serif;
+    color: #505050;
+    font-family: Roboto, Arial, sans-serif;
     height: 60px;
     font-weight: bold;
 }
+
 .product a:hover {
     color: rgb(0, 110, 255);
-    font-family: Roboto,Arial,sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
-.category{
+
+.category {
     height: 100px;
 }
+
 .dropdown-content-Category a:hover {
     background-color: rgb(241, 241, 241);
 }
 
 .dropdown-Category:hover .dropdown-content-Category {
     display: block;
-    
+
 }
+
 .dropdown-content-Category {
     display: none;
     position: absolute;
     background-color: #ffff;
     min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
-.dropbtn{
+
+.dropbtn {
     cursor: pointer;
 }
-.dropdown-Category{
+
+.dropdown-Category {
     font-weight: bold;
-    margin:auto;
-    color: 	#505050;
+    margin: auto;
+    color: #505050;
 }
-.dropdown-Category:hover{
-    color: #2874f0;  
+
+.dropdown-Category:hover {
+    color: #2874f0;
 }
-.dropbtn-Category{
+
+.dropbtn-Category {
     border: none;
     background-color: white;
 }
+
 .dropdown-content-Category a {
     color: black;
     padding: 12px 16px;
@@ -240,14 +271,15 @@ header{
 }
 
 /* For First Category */
-.category-1{
+.category-1 {
     margin: -20px 17px -10px 90px;
     height: 500px;
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
 }
-.left{
+
+.left {
     height: 100%;
     width: 79%;
     background-color: white;
@@ -255,16 +287,19 @@ header{
     display: flex;
     flex-direction: column;
 }
-.right{
+
+.right {
     width: 17%;
     height: 100%;
 }
-.right img{
+
+.right img {
     width: 86%;
     height: 100%;
     background-color: white;
 }
-.btn{
+
+.btn {
     background-color: #2874f0;
     color: white;
     font-size: 15px;
@@ -275,258 +310,303 @@ header{
     font-weight: bold;
     cursor: pointer;
 }
-.left-heading{
+
+.left-heading {
     display: flex;
     justify-content: space-between;
     padding: 14px 18px;
     border-bottom: 1px solid lightgrey;
     height: 70px;
 }
-.left-heading p{
+
+.left-heading p {
     font-size: 17px;
     color: #A5A5A5;
     display: flex;
 }
-.left-heading-1 h2{
+
+.left-heading-1 h2 {
     margin-bottom: -15px;
 }
-.left-heading-2 h2{
+
+.left-heading-2 h2 {
     font-size: 22px;
 }
-.left-heading-2 h4{
+
+.left-heading-2 h4 {
     font-size: 17px;
     font-weight: normal;
     color: #A5A5A5;
 }
-.left-heading-2{
+
+.left-heading-2 {
     padding-top: 5px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    font-family: Roboto,Arial,sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
-.left-heading-2 p{
+
+.left-heading-2 p {
     font-size: 14px;
 }
-.left-heading-2 img{
+
+.left-heading-2 img {
     margin-top: 14px;
     height: 35px;
 }
-.product-card{
+
+.product-card {
     width: 180px;
     padding: 15px;
 }
-.product-card img{
+
+.product-card img {
     height: 160px;
     margin-bottom: 15px;
 }
-.product-card:hover img{
+
+.product-card:hover img {
     transform: scale(1.06);
 }
-.left-card{
+
+.left-card {
     display: flex;
     flex-direction: row;
     overflow: auto;
 }
-.product-card{
+
+.product-card {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.product-card h4{
-    font-family: Roboto,Arial,sans-serif;
+
+.product-card h4 {
+    font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
 }
-.product-card h5{
+
+.product-card h5 {
     color: green;
     font-weight: lighter;
     font-size: 14px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: Roboto,Arial,sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
-.product-card p{
+
+.product-card p {
     font-size: 14px;
     color: #A5A5A5;
-    font-family: Roboto,Arial,sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
-.left_top_section_btn{
+
+.left_top_section_btn {
     height: 75px;
-    width:35px;
+    width: 35px;
     box-shadow: 2px 2px 2px #A5A5A5;
     background-color: white;
     border: none;
 }
-.right_top_section_btn{
+
+.right_top_section_btn {
     height: 75px;
-    width:35px;
+    width: 35px;
     box-shadow: -3px 3px 3px #A5A5A5;
     background-color: white;
     border: none;
 }
 
 /* For Second Category Products List */
-.category-2{
+.category-2 {
     margin-left: 110px;
     margin-right: 98px;
     height: 420px;
     display: flex;
-    font-family: Roboto,Arial,sans-serif;;
+    font-family: Roboto, Arial, sans-serif;
+    ;
 }
-.left-1{
+
+.left-1 {
     height: 100%;
     width: 110%;
     margin-top: 40px;
     background-color: white;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
-.main{
+
+.main {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 /* Media Queries */
-@media(max-width: 1400px){
-    .category-2{
+@media(max-width: 1400px) {
+    .category-2 {
         width: 85%;
         margin-left: 39px;
     }
-    .category-1{
+
+    .category-1 {
         margin-left: 30px;
     }
-    .login{
-        padding:5px;
+
+    .login {
+        padding: 5px;
         font-size: 15px;
     }
 }
 
-@media(max-width: 1350px){
-    .category-2{
-        width: 83%;    
+@media(max-width: 1350px) {
+    .category-2 {
+        width: 83%;
     }
 }
 
-@media(max-width: 1130px){
-    .product-nav{
+@media(max-width: 1130px) {
+    .product-nav {
         justify-content: start;
     }
 }
 
-@media(max-width: 1024px){
-    .category-2{
+@media(max-width: 1024px) {
+    .category-2 {
         width: 82%;
         margin-left: 50px;
     }
-    .category-1{
+
+    .category-1 {
         margin-left: 40px;
     }
-    .product-nav{
+
+    .product-nav {
         justify-content: start;
     }
-    .dropdown span{
+
+    .dropdown span {
         font-size: 15px;
     }
 }
 
-@media(max-width: 1012px){
-    .dropdown span{
+@media(max-width: 1012px) {
+    .dropdown span {
         font-size: 14px;
     }
-    .b-link{
+
+    .b-link {
         font-size: 16px;
     }
 }
 
-@media(max-width: 768px){
-    .category-1{
+@media(max-width: 768px) {
+    .category-1 {
         margin-left: 20px;
         width: 98%;
     }
-    .category-2{
+
+    .category-2 {
         margin-left: 29px;
         width: 85%;
     }
-    .left-heading-2 h2{
+
+    .left-heading-2 h2 {
         font-size: 23px;
     }
-    .left-heading-1 h2{
+
+    .left-heading-1 h2 {
         font-size: 23px;
     }
-    .left-heading-1 p{
+
+    .left-heading-1 p {
         font-size: 17px;
     }
-    .login_button button{
+
+    .login_button button {
         padding: 5px 20px;
     }
 }
 
-@media(max-width: 720px){
-    .left-heading-2 h2{
+@media(max-width: 720px) {
+    .left-heading-2 h2 {
         font-size: 21px;
         margin-top: 12px;
     }
-    .left-heading-2 h4{
+
+    .left-heading-2 h4 {
         font-size: 15px;
         margin-top: 13px;
     }
-    .left-heading-2 img{
+
+    .left-heading-2 img {
         margin-top: 5px;
     }
-    .left-heading-1 h2{
+
+    .left-heading-1 h2 {
         font-size: 20px;
     }
-    .left-heading-1 p{
+
+    .left-heading-1 p {
         font-size: 14px;
     }
-    .left-heading{
+
+    .left-heading {
         height: 50px;
     }
-    .btn{
+
+    .btn {
         width: 80px;
         font-size: 14px;
         padding: 3px;
     }
 }
 
-@media(max-width: 700px){
-    .login_button button{
+@media(max-width: 700px) {
+    .login_button button {
         padding: 5px 20px;
     }
 
 }
-@media(max-width: 688px){
-    .flipkart-logo{
+
+@media(max-width: 688px) {
+    .flipkart-logo {
         margin-left: 20px;
     }
 }
 
-@media(max-width: 652px){
-    .searchbar{
+@media(max-width: 652px) {
+    .searchbar {
         width: 50%;
     }
 }
 
-@media(max-width: 624px){
-    .dropdown span{
+@media(max-width: 624px) {
+    .dropdown span {
         font-size: 16px;
     }
-    .login_button button{
+
+    .login_button button {
         padding: 5px 15px;
     }
-    .left-heading-2 h2{
+
+    .left-heading-2 h2 {
         font-size: 19px;
     }
-    .left-heading-2 h4{
+
+    .left-heading-2 h4 {
         font-size: 14px;
     }
-    .left-heading-1 h2{
+
+    .left-heading-1 h2 {
         font-size: 19px;
     }
-    .left-heading-1 p{
+
+    .left-heading-1 p {
         font-size: 14px;
     }
-    .btn{
+
+    .btn {
         font-size: 13px;
         padding: 2px;
         width: 75px;
@@ -534,194 +614,259 @@ header{
         margin-top: 6px;
         margin-right: -8px;
     }
-    .left{
+
+    .left {
         height: 450px;
     }
-    .right{
+
+    .right {
         height: 450px;
     }
-    .category-2{
+
+    .category-2 {
         margin-top: -50px;
         height: 430px;
     }
 }
 
-@media(max-width: 580px){
-    .header_main_div{
+@media(max-width: 580px) {
+    .header_main_div {
         display: flex;
         flex-direction: column;
     }
 
-    .searchbar{
+    .searchbar {
         width: 60%;
     }
-    .category-1{
+
+    .category-1 {
         display: flex;
         flex-direction: column;
     }
-    .left{
+
+    .left {
         width: 95%;
         margin-bottom: 20px;
         margin-top: 350px;
     }
-    .menu{
+
+    .menu {
         margin-left: 10px;
         margin-right: 10px;
     }
-    .right{
+
+    .right {
         height: 500px;
         width: 60%;
         margin-left: 110px;
     }
-    .category-2{
+
+    .category-2 {
         margin-top: 370px;
         width: 82%;
     }
 }
 
-@media(max-width: 560px){
-    .login{
+@media(max-width: 560px) {
+    .login {
         margin-right: 4px;
     }
-    .logo{
+
+    .logo {
         margin-top: 20px;
     }
-    .logo-colour{
+
+    .logo-colour {
         margin-top: 8px;
     }
-    .dropdown{
+
+    .dropdown {
         margin-top: 3px;
     }
-    .dropdown span{
+
+    .dropdown span {
         margin-right: -18px;
     }
-    .a-link{
+
+    .a-link {
         margin-top: 25px;
     }
-    .b-link{
+
+    .b-link {
         margin-top: 25px;
     }
-    .category-2{
+
+    .category-2 {
         margin-top: 360px;
     }
 }
 
-@media(max-width: 530px){
-    .category-2{
+@media(max-width: 530px) {
+    .category-2 {
         margin-top: 320px;
     }
-    .left{
+
+    .left {
         margin-top: 300px;
     }
 }
 
-@media(max-width: 500px){
-    .category-2{
+@media(max-width: 500px) {
+    .category-2 {
         margin-top: 310px;
         margin-bottom: 20px;
     }
 }
 
-@media(max-width: 480px){
-    .logooo{
+@media(max-width: 480px) {
+    .logooo {
         margin-left: 5px;
     }
-    .search-bar{
+
+    .search-bar {
         width: 80px;
     }
-    .a-link{
+
+    .a-link {
         margin-left: -7px;
     }
-    .b-link{
+
+    .b-link {
         margin-left: -5px;
         margin-top: 27px;
     }
-    .dropdown span{
+
+    .dropdown span {
         font-size: 15px;
     }
-    .category-1{
+
+    .category-1 {
         margin-top: 70px;
     }
-    .category-2{
+
+    .category-2 {
         margin-top: 300px;
     }
 }
 
-@media(max-width: 450px){
-    .left-heading h4{
+@media(max-width: 450px) {
+    .left-heading h4 {
         display: none;
     }
-    .left-heading img{
+
+    .left-heading img {
         display: none;
     }
 }
 
-@media(max-width: 425px){
-    .right{
-        margin-left: 93px;
+@media(max-width: 425px) {
+    .right {
+        margin-left: 50px;
+        width: 350px;
     }
-    .header1{
+
+    .header1 {
         height: 150px;
         flex-wrap: wrap;
     }
-    .dropdown span{
+
+    .dropdown span {
         margin-right: 5px;
     }
-    .dropdown fa-solid{
+
+    .dropdown fa-solid {
         display: none;
     }
-    .category-1{
-        margin-top: 40px;
+
+    .category-1 {
+        margin-top: 100px;
     }
-    .header_main_div{
+
+    .header_main_div {
         padding: 5px 5px;
     }
-    .left-heading-2 h2{
+
+    .left-heading-2 h2 {
         font-size: 17px;
     }
-    .left-heading-1 h2{
+
+    .left-heading-1 h2 {
         font-size: 17px;
     }
-    .left-heading-1 p{
+
+    .left-heading-1 p {
         font-size: 14px;
     }
-    .btn{
+
+    .btn {
         font-size: 11px;
         width: 58px;
     }
-    .category-2{
-        margin-top: 280px;
+
+    .category-2 {
+        margin-top: 350px;
     }
-    .search-bar input{
+
+    .search-bar input {
         font-size: 12px;
     }
 }
 
-@media(max-width: 375px){
-    .right{
-        margin-left: 80px;
+@media(max-width: 375px) {
+    .right {
+        margin-left: 30px;
+        width: 300px;
     }
-    .left-heading-1 h2{
+
+    .left-heading-1 h2 {
         font-size: 15px;
     }
-    .left-heading-1 p{
+
+    .left-heading-1 p {
         font-size: 13px;
     }
-    .left-heading-2 h2{
+
+    .left-heading-2 h2 {
         font-size: 15px;
     }
-    .search-bar{
+
+    .search-bar {
         width: 220px;
     }
-    .logo{
+
+    .logo {
         margin-left: 7px;
     }
-    .category-2{
-        margin-top: 250px;
+
+    .category-2 {
+        margin-top: 320px;
         margin-left: 15px;
     }
-    .category-1{
+
+    .category-1 {
         margin-left: 15px;
+        margin-top: 70px;
     }
 }
 
+@media(max-width: 330px) {
+    .plus {
+        width: 10px;
+    }
+
+    .flipkart-logo a {
+        font-size: 11px;
+    }
+
+    .flip-logo {
+        width: 50px;
+    }
+
+    .category-1 {
+        width: 93%;
+    }
+
+    .right {
+        margin-left: 18px;
+    }
+}
